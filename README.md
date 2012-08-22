@@ -16,7 +16,10 @@ As informações de transação devem ser concatenadas na ordem abaixo, os valor
 		Assinatura: 799074cdb40ce532ed97bf11a9e7963f
 
 
-A **_secret key_** é criada pela maxiPago! durante o processo de configuração da loja.
+_A **_secret key_** é criada pela maxiPago! durante o processo de configuração da loja._
+
+**GERADOR:** [Clique aqui para acessar o gerador de assinatura](http://www.maxipago.com/testes/hmac.php)
+
 
 ## ENGLISH ##
 
@@ -36,4 +39,9 @@ The transaction information must be concatenated in the order below, with the va
 		Signature: 799074cdb40ce532ed97bf11a9e7963f
 
 
-The **_secret key_** is assigned by **maxiPago!** during boarding and setup.
+_The **_secret key_** is assigned by **maxiPago!** during boarding and setup._
+
+**GENERATOR:** [Click here to access the signature generator](http://www.maxipago.com/testes/hmac.php)
+
+
+
