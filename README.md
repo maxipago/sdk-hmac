@@ -8,13 +8,16 @@ As informações de transação devem ser concatenadas na ordem abaixo, os valor
 
 **Valores concatenados:**
 
-		Valores: timestamp*sig_id*amount*item_id
+```
+	Valores: timestamp*sig_id*amount*item_id
+```
 
 **Exemplo usando "_jM13K8hdbWi2V9ab_" como secret key:**
 
-		Exemplo: 1325248408*5038*15,00*123123
-		Assinatura: 799074cdb40ce532ed97bf11a9e7963f
-
+```
+	Exemplo: 1325248408*5038*15,00*123123
+	Assinatura: 799074cdb40ce532ed97bf11a9e7963f
+```
 
 _A **_secret key_** é criada pela maxiPago! durante o processo de configuração da loja._
 
@@ -31,17 +34,17 @@ The transaction information must be concatenated in the order below, with the va
 
 **Concatenated values:**
 
+```
 		Values: timestamp*sig_id*amount*item_id
+```
 
 **Example using "_jM13K8hdbWi2V9ab_" as secret key:**
 
-		Example: 1325248408*5038*15,00*123123
-		Signature: 799074cdb40ce532ed97bf11a9e7963f
-
+```
+	Example: 1325248408*5038*15,00*123123
+	Signature: 799074cdb40ce532ed97bf11a9e7963f
+```
 
 _The **_secret key_** is assigned by **maxiPago!** during boarding and setup._
 
 **GENERATOR:** [Click here to access the signature generator](http://www.maxipago.com/testes/hmac.php)
-
-
-
