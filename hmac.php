@@ -11,5 +11,10 @@ class hmachHash {
 		return hash_hmac("MD5", $toHash, $secretKey);
 	}
 	
+	public function iFrameHash($m,$s,$secretKey) {
+		$toHash = $m."*".$s;
+		return hash_hmac("MD5", $toHash, $secretKey);
+	}
+	
 }
 ?>
