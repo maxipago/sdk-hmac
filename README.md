@@ -15,7 +15,7 @@ As informações de transação devem ser concatenadas na ordem abaixo, os valor
 **Exemplo usando "_jM13K8hdbWi2V9ab_" como secret key:**
 
 ```
-	Exemplo: 1325248408*5038*15,00*123123
+	Exemplo: 1325248408*5038*15.00*123123
 	Assinatura: 799074cdb40ce532ed97bf11a9e7963f
 ```
 
@@ -41,7 +41,7 @@ The transaction information must be concatenated in the order below, with the va
 **Example using "_jM13K8hdbWi2V9ab_" as secret key:**
 
 ```
-	Example: 1325248408*5038*15,00*123123
+	Example: 1325248408*5038*15.00*123123
 	Signature: 799074cdb40ce532ed97bf11a9e7963f
 ```
 
